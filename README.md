@@ -5,7 +5,7 @@ _GAMBLOMATIC_ is a C++ playing card system that could theoretically be used to m
   
 ## Upcoming features
 
-I have yet to create these examples, as the system is still in version one. However, what it can do right now is dynamically create a deck, which may be slightly inefficient but allows for more customization. It can also print the deck, and currently I'm working on various utility functions like shuffling. This project was originally started in C, so please excuse the un-C++-like programming practices. 
+I have yet to create most of these examples, as the system is still in version one. However, what it can do right now is dynamically create a deck, which may be slightly inefficient but allows for more customization. It can also print the deck, and I just very recently added shuffling. This project was originally started in C, so please excuse the un-C++-like programming practices. 
 
 ## Other stuff
 
