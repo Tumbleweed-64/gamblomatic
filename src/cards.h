@@ -1,6 +1,8 @@
 #pragma once
 
 #include <vector>
+#include <random>
+#include <algorithm>
 
 typedef struct card {
 		int rank;
@@ -61,4 +63,11 @@ void printDeck(deck theDeck) {
 
 				std::cout << "\n";
 		}
+}
+
+// from https://stackoverflow.com/a/6926473/22506735
+void shuffleDeck(deck deckToShuffle) {
+		std::random_device rd;
+		std::default_random_engine rng = std::default_random_engine(rd());
+		std::ranges::shuffle(deckToShuffle, rng);
 }
