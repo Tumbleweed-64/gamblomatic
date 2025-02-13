@@ -75,6 +75,7 @@ class Deck {
 							break;
 						case 3:
 							std::cout << "Clubs";
+							break;
 				}
 				std::cout << "\n";
 			}
