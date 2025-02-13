@@ -1,12 +1,12 @@
 #include <iostream>
-#include "cards.h"
+#include "gamblomatic.h"
 
-// NOTE: This file and all other example files require cards.h to be in the same directory, or it won't work.
+// NOTE: This file and all other example files require gamblomatic.h to be in the same directory, or it won't work.
 int main() {
-		deck bicycle = createDeck();
-		printDeck(bicycle);
-    std::cout << "\nShuffled:\n\n";
-    shuffleDeck(bicycle);
-    printDeck(bicycle);
-		return 0;
+	Deck bicycle {false};
+	bicycle.printDeck();
+	std::cout << "\nShuffled:\n\n";
+	bicycle.shuffleDeck();
+	bicycle.printDeck();
+	return 0;
 }
