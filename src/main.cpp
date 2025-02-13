@@ -1,8 +1,8 @@
 #include <iostream>
-#include "cards.h"
+#include "gamblomatic.h"
 
 int main() {
-		deck bicycle = createDeck();
-		printDeck(bicycle);
-		return 0;
+	Deck bicycle {false}; // create a standard 52-card deck (no jokers)
+	printDeck(bicycle);
+	return 0;
 }
