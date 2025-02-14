@@ -14,6 +14,7 @@ class Deck {
 	std::vector<Card> deck;
 	bool jokersOn;
 
+	// Creates a standard 52-card deck. Jokers can optionally added via the constructor.
 	void createDeck() {
 			for (int i = 0; i<=3; i++) {
 				// loop for each suit
@@ -40,6 +41,7 @@ class Deck {
 				createDeck();
 		}
 
+		// Prints out the deck, line by line. Will make the output smaller soon.
 		void printDeck() {
 			int cardCount = (jokersOn) ? 54 : 52;
 			for (int i = 0; i < cardCount; i++) {
