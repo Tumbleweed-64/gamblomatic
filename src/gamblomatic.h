@@ -17,13 +17,11 @@ class Deck {
 	// Creates a standard 52-card deck. Jokers can optionally added via the constructor.
 	void createDeck() {
 			for (int i = 0; i<=3; i++) {
-				// loop for each suit
 				for (int j = 2; j <= 14; j++) {
-					// loop for each rank
-						Card newCard;
-						newCard.rank = j;
-						newCard.suit = i;
-						deck.push_back(newCard);
+					Card newCard;
+					newCard.rank = j;
+					newCard.suit = i;
+					deck.push_back(newCard);
 				}
 			}
 				if (jokersOn) {
