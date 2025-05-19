@@ -12,3 +12,9 @@ I have yet to create most of the example projects, as the system is still in ver
 ## Other stuff
 
 With v1.04 released, I think that I'm ready to start implementing some functionality for a basic card game, one where you play against the house, like Blackjack or maybe Acey-Deucy. I just need to add a function to deal cards quick, and then I can start. Additionally, I'm reading some papers on game theory optimal poker in order to make some solid bots to play against in the poker examples.
+
+## Example projects provided
+
+- Blackjack (vs not the greatest dealer AI but you can write your own with the help of the library)
+- War (not quite finished with this one yet)
+- *more coming soon*
